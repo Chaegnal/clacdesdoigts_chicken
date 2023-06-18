@@ -39,17 +39,16 @@ Then, fill up the body of your request, according the the following examples:
 [GET]localhost:300/chicken
 
 [POST]localhost:300/chicken or [PUT]localhost:300/chicken/:id
-{
+
   "name": "mike",
   "birthday": "2020-05-08", //optional
   "weight": 700,
   "steps": 90, //optional
   "isRunning": 0 //optional
-}
+
 
 For patch, you can choose the information the you want to update, this is an example of just updating the name of a certain chicken:
 
 [PATCH]localhost:300/chicken/:id
-{
+
   "name": "mike",
-}
